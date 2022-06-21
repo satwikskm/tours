@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(#43C6AC,#191654);
+    
+}
+.singleTour{
+    margin: 20px 20px;
+    background: white;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    box-shadow: 5px 5px  5px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    transform: translateX(180px);
+   
+}
+
+.singleTour img{
+    width: 70%;
+    border-radius: 20px;
+    align-items: center;
+}
+.delete-btn{
+    background: #191654;
+    color: aliceblue;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.delete-btn:hover{
+    background: white;
+    color: rgb(195, 68, 68);
+    border: 1px solid rgb(195, 68, 68);
+}
+
+.singleTour p{
+    padding: 20px 20px;
+}
+.read-more{
+    background: white;
+    border: none;
+    color: blue;
+    cursor: pointer;
+}

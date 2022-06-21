@@ -1,0 +1,14 @@
+.btn{
+    
+    height: 100vh;
+    transform: translate(0,500px);
+}
+
+.refresh{
+    padding: 20px 30px;
+    border-radius: 10px;
+    background: #191654;
+    color: aliceblue;
+    border:none;
+    cursor: pointer;
+}
