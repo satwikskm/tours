@@ -44,3 +44,16 @@ body{
     color: blue;
     cursor: pointer;
 }
+
+
+@media(max-width:400px){
+    .singleTour img{
+        width: 100%;
+        
+    }
+    .singleTour{
+        width: 80%;
+        transform: translateX(-10px);
+    }
+    
+}
